@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=IE11">
+    <title>Controlador GPIO</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/socket.io.js"></script>
+    <script src="js/action.js"></script>
+</head>
+
+<body>
+    <center>
+        <h1>Comando: <span id="saida" style="font-size: x-large;"></span>
+        </h1>
+        <input type="checkbox" id="mode" value="1">MODE
+        <br>
+        <input type="checkbox" id="1" onclick="action(this)">1
+        <input type="checkbox" id="2" onclick="action(this)">2
+        <input type="checkbox" id="3" onclick="action(this)">3
+        <input type="checkbox" id="4" onclick="action(this)">4
+        <input type="checkbox" id="5" onclick="action(this)">5
+        <input type="checkbox" id="6" onclick="action(this)">6
+        <input type="checkbox" id="7" onclick="action(this)">7
+        <input type="checkbox" id="8" onclick="action(this)">8
+        <input type="checkbox" id="9" onclick="action(this)">9
+        <input type="checkbox" id="10" onclick="action(this)">10
+        <br>
+        <input type="checkbox" id="11" onclick="action(this)">11
+        <input type="checkbox" id="12" onclick="action(this)">12
+        <input type="checkbox" id="13" onclick="action(this)">13
+        <input type="checkbox" id="14" onclick="action(this)">14
+        <input type="checkbox" id="15" onclick="action(this)">15
+        <input type="checkbox" id="16" onclick="action(this)">16
+        <input type="checkbox" id="17" onclick="action(this)">17
+        <input type="checkbox" id="18" onclick="action(this)">18
+        <input type="checkbox" id="19" onclick="action(this)">19
+        <input type="checkbox" id="20" onclick="action(this)">20
+        <br>
+        <input type="checkbox" id="21" onclick="action(this)">21
+        <input type="checkbox" id="22" onclick="action(this)">22
+        <input type="checkbox" id="23" onclick="action(this)">23
+        <input type="checkbox" id="24" onclick="action(this)">24
+        <input type="checkbox" id="25" onclick="action(this)">25
+        <input type="checkbox" id="26" onclick="action(this)">26
+        <input type="checkbox" id="27" onclick="action(this)">27
+        <input type="checkbox" id="28" onclick="action(this)">28
+        <input type="checkbox" id="29" onclick="action(this)">29
+        <input type="checkbox" id="30" onclick="action(this)">30
+        <br>
+        <input type="checkbox" id="31" onclick="action(this)">31
+        <input type="checkbox" id="32" onclick="action(this)">32
+        <input type="checkbox" id="33" onclick="action(this)">33
+        <input type="checkbox" id="34" onclick="action(this)">34
+        <input type="checkbox" id="35" onclick="action(this)">35
+        <input type="checkbox" id="36" onclick="action(this)">36
+        <input type="checkbox" id="37" onclick="action(this)">37
+        <input type="checkbox" id="38" onclick="action(this)">38
+        <input type="checkbox" id="39" onclick="action(this)">39
+        <input type="checkbox" id="40" onclick="action(this)">40
+        <h3>Usuários conectados: <span id="contador"></span></h3>
+        <h3>Latência: <span id="latencia"></span></h3>
+</body>
+
+</html>

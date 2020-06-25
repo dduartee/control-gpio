@@ -1,0 +1,47 @@
+.coll {
+    width: 75%; /* tamanho colunas horizontal*/
+}
+.roww:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.moll {
+    width: 10%;
+}
+.camera {
+   width: 45%
+}
+@media screen and (max-width: 1024px) {
+    .coll {
+        width: 100%; /* tamanho colunas horizontal*/
+    }
+    .moll {
+        width: 10%;
+    }
+    .camera {
+       width: 45%
+    }
+}
+@media screen and (max-width: 768px) {
+    .coll {
+        width: 100%; /* tamanho colunas horizontal*/
+    }
+    .moll {
+        width: 10%;
+    }
+    .camera {
+       width: 80%
+    }
+}
+@media screen and (max-width: 425px) {
+    .coll {
+        width: 100%; /* tamanho colunas horizontal*/
+    }
+    .moll {
+        width: 25%;
+    }
+    .camera {
+       width: 100%
+    }
+}
