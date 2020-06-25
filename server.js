@@ -5,7 +5,7 @@ var http = require('http').Server(app);
 var io = require('socket.io')(http, {
   pingInterval: 500
 });
-//var rpio = require('rpio');
+var rpio = require('rpio');
 var contador = 0;
 
 app.get('/', function (req, res) {
